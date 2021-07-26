@@ -1,0 +1,34 @@
+body{
+    background-image:url('background.png'); 
+}
+
+#lab{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size:50px;
+    margin-top: 40px;
+    color: rgb(54, 54, 54);
+}
+
+button{
+    border: 5px solid rgba(133, 133, 133);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: rgb(54, 54, 54);
+}
+canvas{
+    border: 5px ridge rgba(133, 133, 133);
+    margin-top: 30px;
+
+    animation-name: test_animate;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test_animate {
+    from {box-shadow: 1px 1px 38px rgba(148, 148, 148);}
+    to {box-shadow: 1px 1px 38px rgba(255, 72, 0);}
+}
+
